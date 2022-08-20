@@ -1,0 +1,6 @@
+Commit 1: เพิ่ม tiltle เปลี่ยนจาก Hello เป็น Football เพิ่ม Hint และจัดรูปแบบให้อยู่กึ่งกลาง
+Commit 2: เพิ่ม alert เมื่อชนะจะแสดงกล่องข้อความโต้ตอบให้ผู้ใช้ทราบว่า Congrats! You found the word 
+		แต่ถ้าหากแพ้จะแสดงคำว่า Game over! Come on You can do it!.
+Commit 3: เปลี่ยน font-size เป็น 4em; และ เปลี่ยนสี Active การ์ดเป็นสีเขียว
+Commit 4: เพิ่มให้เกม reset เองเมื่อชนะ และบวก attempt ไปอีกหนึ่ง
+Commit 5: เพิ่มให้แสดงรอบในการเล่น ผ่านตัวแปร attempt
