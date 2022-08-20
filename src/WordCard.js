@@ -26,11 +26,13 @@ export default function WordCard(props){
         
         if(guess.length == state.word.length){
             if(guess == state.word){
+                alert(`Congrats! You found the word`);
                 console.log('yeah!')
                 setState({...state, guess: '', completed: true})
             }else{
                 console.log('reset, next attempt')
                 setState({...state, guess: '', attempt: state.attempt + 1})
+                alert(`Game over! Come on You can do it!.`);
             }
         }
     }
