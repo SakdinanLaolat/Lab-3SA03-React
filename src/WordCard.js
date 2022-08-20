@@ -45,6 +45,7 @@ export default function WordCard(props){
                     <CharacterCard value={c} key={i} activationHandler={activationHandler} attempt={state.attempt}/>
                 ) 
             }
+            <p className='guess'>Round : <span>{state.attempt}</span></p>
         </div>
         
     );
