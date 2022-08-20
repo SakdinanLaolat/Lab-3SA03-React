@@ -41,19 +41,22 @@
   display: inline-block;
   text-align: center;
   width: 3em;
-  font-size: 2em;
+  font-size: 4em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 1em;
   user-select: none;
 }
  
 .activeCard {
-  color: red;
-  background: pink;
+  color: rgb(7, 47, 22);
+  background: rgb(35, 103, 55);
 }
 
 .center {
   text-align: center; 
 }
 
+.bgcolor {
+  background-color: antiquewhite;
+}
  
